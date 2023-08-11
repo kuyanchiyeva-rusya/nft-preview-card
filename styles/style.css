@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit, sans-serif;
+    color: white;
+}
+.container {
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    background-color: #15273F;
+    color: white;
+    padding: 25px;
+    max-width: 350px;
+ box-shadow: -15px 25px 10px #0C1729;
+ border-radius: 12px;
+ box-sizing: border-box;
+}
+.main-image {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.main-text {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.main-text:hover {
+    color: cyan;
+}
+.description{
+    opacity: .5;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.footer-text {
+    display: flex;
+    margin-bottom: 20px;
+}
+.small-ethereum {
+    display: inline-block;
+    padding-right: 10px;
+}
+.text {
+    color: cyan;
+    font-weight: 400;
+    
+}
+.small-clock {
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: 100px;
+}
+.clock-text{
+    font-weight: 400;
+    opacity: 0.5;
+}
+hr {
+    opacity: 0.1;
+    border-width: 0.5px;
+    margin: 5px;
+}
+.avatar-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid white;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.text-avatar {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.text-avatar:hover{
+    color: cyan;
+}
+span {
+    opacity: 0.2;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .container {
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 30px;
+        background-color: #15273F;
+        color: white;
+        padding: 25px;
+        max-width: 350px;
+     box-shadow: -15px 25px 10px #0C1729;
+     border-radius: 12px;
+     box-sizing: border-box;
+    }
+    .main-image {
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .main-text {
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .main-text:hover {
+        color: cyan;
+    }
+    .description{
+        opacity: .5;
+        line-height: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    
+    }
+    .footer-text {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .small-ethereum {
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .text {
+        color: cyan;
+        font-weight: 400;
+        
+    }
+    .small-clock {
+        display: inline-block;
+        padding-right: 10px;
+        margin-left: 100px;
+    }
+    .clock-text{
+        font-weight: 400;
+        opacity: 0.5;
+    }
+    hr {
+        opacity: 0.1;
+        border-width: 0.5px;
+        margin: 5px;
+    }
+    .avatar-photo {
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        border: 1px solid white;
+        float: left;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .text-avatar {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .text-avatar:hover{
+        color: cyan;
+    }
+    span {
+        opacity: 0.2;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .container {
+        margin-top: 50px;
+        margin-left: 125px;
+        margin-bottom: 20px;
+        background-color: #15273F;
+        color: white;
+        padding: 25px;
+        max-width: 250px;
+     box-shadow: -15px 25px 10px #0C1729;
+     border-radius: 12px;
+     box-sizing: border-box;
+    }
+    .main-image {
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .main-text {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .main-text:hover {
+        color: cyan;
+    }
+    .description{
+        opacity: .5;
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    
+    }
+    .footer-text {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .small-ethereum {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        padding-right: 8px;
+    }
+    .text {
+        color: cyan;
+        font-size: 12px;
+        font-weight: 400;
+        
+    }
+    .small-clock {
+        display: inline-block;
+        padding-right: 8px;
+        margin-left: 60px;
+        width: 25px;
+        height: 25px;
+    }
+    .clock-text{
+        font-weight: 400;
+        opacity: 0.5;
+        font-size: 12px;
+    }
+    hr {
+        opacity: 0.1;
+        border-width: 0.5px;
+        margin: 5px;
+    }
+    .avatar-photo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid white;
+        float: left;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+    .text-avatar {
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .text-avatar:hover{
+        color: cyan;
+    }
+    span {
+        opacity: 0.2;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .container {
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        background-color: #15273F;
+        color: white;
+        padding: 25px;
+        max-width: 250px;
+     box-shadow: -15px 25px 10px #0C1729;
+     border-radius: 12px;
+     box-sizing: border-box;
+    }
+    .main-image {
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .main-text {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .main-text:hover {
+        color: cyan;
+    }
+    .description{
+        opacity: .5;
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    
+    }
+    .footer-text {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .small-ethereum {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        padding-right: 8px;
+    }
+    .text {
+        color: cyan;
+        font-size: 12px;
+        font-weight: 400;
+        
+    }
+    .small-clock {
+        display: inline-block;
+        padding-right: 8px;
+        margin-left: 60px;
+        width: 25px;
+        height: 25px;
+    }
+    .clock-text{
+        font-weight: 400;
+        opacity: 0.5;
+        font-size: 12px;
+    }
+    hr {
+        opacity: 0.1;
+        border-width: 0.5px;
+        margin: 5px;
+    }
+    .avatar-photo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid white;
+        float: left;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+    .text-avatar {
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .text-avatar:hover{
+        color: cyan;
+    }
+    span {
+        opacity: 0.2;
+    }   
+}
+@media only screen and (max-width:300px) {
+    .container {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        background-color: #15273F;
+        color: white;
+        padding: 25px;
+        max-width: 250px;
+     box-shadow: -15px 25px 10px #0C1729;
+     border-radius: 12px;
+     box-sizing: border-box;
+    }
+    .main-image {
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .main-text {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .main-text:hover {
+        color: cyan;
+    }
+    .description{
+        opacity: .5;
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    
+    }
+    .footer-text {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .small-ethereum {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        padding-right: 8px;
+    }
+    .text {
+        color: cyan;
+        font-size: 12px;
+        font-weight: 400;
+        
+    }
+    .small-clock {
+        display: inline-block;
+        padding-right: 8px;
+        margin-left: 60px;
+        width: 25px;
+        height: 25px;
+    }
+    .clock-text{
+        font-weight: 400;
+        opacity: 0.5;
+        font-size: 12px;
+    }
+    hr {
+        opacity: 0.1;
+        border-width: 0.5px;
+        margin: 5px;
+    }
+    .avatar-photo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border: 1px solid white;
+        float: left;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+    .text-avatar {
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .text-avatar:hover{
+        color: cyan;
+    }
+    span {
+        opacity: 0.2;
+    }   
+}
